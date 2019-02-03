@@ -8,7 +8,7 @@ function clean(text) {
         return text;
 }
 
-const prefix = "!";
+const prefix = "-";
 const token = "NTQwOTUxMTYzNDI4NjY3NDEy.DzjH9Q.iEbzkf4sCZGpGpRfaU1yLK8s1X4";
 
 client.on("ready", () => {
@@ -22,7 +22,7 @@ client.on("message", (message) => {
 
   if (message.content.toLowerCase().startsWith(prefix + `help`)) {
     const embed = new Discord.RichEmbed()
-    .setTitle(`:mailbox_with_mail: Vulnix Help`)
+    .setTitle(`:mailbox_with_mail: Razer ticket Help`)
     .setColor(0xCF40FA)
     .setDescription(`Hello! I'm Vulnix, the Discord bot for super cool support ticket stuff and more! Here are my commands:`)
     .addField(`Tickets`, `[${prefix}new]() > Opens up a new ticket and tags the Support Team\n[${prefix}close]() > Closes a ticket that has been resolved or been opened by accident`)
