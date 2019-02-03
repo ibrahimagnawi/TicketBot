@@ -12,7 +12,7 @@ const prefix = "-";
 const token = "NTQwOTUxMTYzNDI4NjY3NDEy.DzjH9Q.iEbzkf4sCZGpGpRfaU1yLK8s1X4";
 
 client.on("ready", () => {
-  console.log("Vulnix | Logged in! Server count: ${client.guilds.size}");
+  console.log("Razer | Logged in! Server count: ${client.guilds.size}");
   client.user.setGame(`Support Magic |${prefix}new`);
 });
 
